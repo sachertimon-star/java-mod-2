@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.example.shieldanim.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["ItemInHandRendererMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

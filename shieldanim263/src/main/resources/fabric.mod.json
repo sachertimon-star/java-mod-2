@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "shieldanim",
+  "version": "${version}",
+  "name": "Shield Animations",
+  "description": "Stylische First-Person-Animationen für Schilde: Pull-out mit Aufschwingen und eine Inspect-Animation (Taste G).",
+  "authors": ["DeinName"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.shieldanim.ShieldInspectClient"]
+  },
+  "mixins": ["shieldanim.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
